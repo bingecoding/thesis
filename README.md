@@ -4,7 +4,7 @@ Rendering each pixel in a scene with ray tracing can be done independently.
 <br>
 Path divergence for rays traced through a pixel, means that some pixels will take longer to render.
 <br>
-The most costly operation in physically based rendering is, to determine if a ray has intersected an object.
+The most costly operation in physically based rendering is to determine if a ray has intersected an object.
 <br>
 <br>
 The [Lightcuts](https://www.cs.cornell.edu/~kb/projects/lightcuts/) rendering technique reduces this cost by 
