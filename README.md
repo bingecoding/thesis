@@ -18,6 +18,5 @@ All scenes in the thesis were rendered with [dprt](https://github.com/bingecodin
 to OpenCL ([see here](https://github.com/bingecoding/dprt/blob/main/src/kernels/lightcutsgpu_kernel.cl)).
 <br>
 Reconstruction Cuts is a more advanced variation of lightcuts that exploits spatial coherency to further reduce costs.
-<br>
 This method was first prototyped in C++ ([see here](https://github.com/bingecoding/dprt/blob/main/src/engines/reconstructioncutscpu.cpp)) 
 and then ported to OpenCL ([see here](https://github.com/bingecoding/dprt/blob/main/src/kernels/reconstructioncutsgpu_kernel.cl)).
